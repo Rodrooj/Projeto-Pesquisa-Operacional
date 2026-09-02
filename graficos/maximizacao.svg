@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+<rect width="900" height="600" fill="white"/>
+<text x="450" y="35" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold">Modelo de maximização — região viável e soluções ótimas</text>
+<g stroke="#222" stroke-width="2"><line x1="90" y1="520" x2="820" y2="520"/><line x1="90" y1="520" x2="90" y2="70"/></g>
+<g font-family="Arial" font-size="14" fill="#222">
+<text x="820" y="548" text-anchor="end">x — bonecos (unid./semana)</text><text x="55" y="78" text-anchor="middle">y — trens</text>
+</g>
+<!-- grid -->
+<g stroke="#ddd" stroke-width="1">
+<line x1="252.2" y1="70" x2="252.2" y2="520"/><line x1="414.4" y1="70" x2="414.4" y2="520"/><line x1="576.7" y1="70" x2="576.7" y2="520"/><line x1="738.9" y1="70" x2="738.9" y2="520"/>
+<line x1="90" y1="420" x2="820" y2="420"/><line x1="90" y1="320" x2="820" y2="320"/><line x1="90" y1="220" x2="820" y2="220"/><line x1="90" y1="120" x2="820" y2="120"/>
+</g>
+<g font-family="Arial" font-size="13" fill="#222">
+<text x="90" y="540" text-anchor="middle">0</text><text x="252.2" y="540" text-anchor="middle">10</text><text x="414.4" y="540" text-anchor="middle">20</text><text x="576.7" y="540" text-anchor="middle">30</text><text x="738.9" y="540" text-anchor="middle">40</text>
+<text x="75" y="524" text-anchor="end">0</text><text x="75" y="424" text-anchor="end">20</text><text x="75" y="324" text-anchor="end">40</text><text x="75" y="224" text-anchor="end">60</text><text x="75" y="124" text-anchor="end">80</text>
+</g>
+<!-- constraint lines: y=100-2x, y=80-x, x=40 -->
+<line x1="90" y1="20" x2="820" y2="520" stroke="#555" stroke-width="3"/>
+<line x1="90" y1="120" x2="820" y2="485" stroke="#777" stroke-width="3" stroke-dasharray="9 6"/>
+<line x1="738.9" y1="70" x2="738.9" y2="520" stroke="#777" stroke-width="3" stroke-dasharray="9 6"/>
+<!-- feasible polygon A(0,0) E(0,80) D(20,60) C(40,20) B(40,0) -->
+<polygon points="90,520 90,120 414.4,220 738.9,420 738.9,520" fill="#e6e6e6" fill-opacity="0.8" stroke="#222" stroke-width="2"/>
+<!-- optimal segment C-D -->
+<line x1="414.4" y1="220" x2="738.9" y2="420" stroke="#000" stroke-width="7"/>
+<g fill="#000" stroke="white" stroke-width="2">
+<circle cx="90" cy="520" r="7"/><circle cx="738.9" cy="520" r="7"/><circle cx="738.9" cy="420" r="7"/><circle cx="414.4" cy="220" r="7"/><circle cx="90" cy="120" r="7"/>
+</g>
+<g font-family="Arial" font-size="15" fill="#111" font-weight="bold">
+<text x="102" y="508">A (0,0)</text><text x="747" y="510">B (40,0)</text><text x="747" y="410">C (40,20)</text><text x="425" y="210">D (20,60)</text><text x="100" y="112">E (0,80)</text>
+<text x="525" y="286">Soluções ótimas: Z = R$ 200</text>
+</g>
+<g font-family="Arial" font-size="14" fill="#333">
+<text x="500" y="92">2x + y = 100 — acabamento</text><text x="520" y="470">x + y = 80 — carpintaria</text><text x="748" y="90" transform="rotate(90 748 90)">x = 40 — demanda de bonecos</text>
+</g>
+</svg>
