@@ -7,7 +7,7 @@ Estudo de caso de Programação Linear aplicado ao planejamento de produção da
 - Documento original da atividade: [`Docs/Estudo de caso 01`](./Docs/Estudo%20de%20caso%2001)
 - Enunciado em PDF: [`Docs/Pesquisa Operacional - Estudo de caso 01.pdf`](./Docs/Pesquisa%20Operacional%20-%20Estudo%20de%20caso%2001.pdf)
 - Solução detalhada: [`Solução - Estudo de caso 01.md`](./Solu%C3%A7%C3%A3o%20-%20Estudo%20de%20caso%2001.md)
-- Verificação em R: [`Docs/verificacao_estudo_caso_01.R`](./Docs/verificacao_estudo_caso_01.R)
+- Verificação em R: [`verificacao_estudo_caso_01.R`](./verificacao_estudo_caso_01.R)
 
 ## Verificação reproduzível
 
